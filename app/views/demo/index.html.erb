@@ -10,3 +10,7 @@
 <br>
 
 <%= link_to('Student detail', '/students/detail') %>
+
+<br>
+
+<%= link_to('Student detail with params', {controller: 'students', action: :detail, id: 20, page: 5}) %>

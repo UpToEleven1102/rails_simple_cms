@@ -3,5 +3,6 @@ class StudentsController < ApplicationController
   end
 
   def detail
+    @page = params['page']
   end
 end
