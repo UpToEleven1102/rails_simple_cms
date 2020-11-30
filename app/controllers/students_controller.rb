@@ -1,0 +1,7 @@
+class StudentsController < ApplicationController
+  def index
+  end
+
+  def detail
+  end
+end
