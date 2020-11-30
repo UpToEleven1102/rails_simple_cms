@@ -4,6 +4,25 @@
 
 <%= "Hello #{target}!" %>
 
+<br>
+
+<%= "Hello array: #{@array}" %>
+
+<br>
+
+<% @array.each do |n| %>
+  <p>Hello <%= n %></p>
+<% end %>
+
+<% for i in @array %>
+  <p>Hello <%= i %></p>
+<% end %>
+
+<br>
+<br>
+<br>
+<br>
+
 <% 3.times do |n| %>
   <p>Hello <%= n %></p>
 <% end %>
