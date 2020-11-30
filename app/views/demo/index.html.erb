@@ -1,2 +1,12 @@
 <h1>Demo#index</h1>
 <p>Find me in app/views/demo/index.html.erb</p>
+
+<%= link_to('Demo Hello', {:action => :hello}) %>
+<br>
+<br>
+
+<%= link_to('Student index', {controller: 'students', action: :index}) %>
+<br>
+<br>
+
+<%= link_to('Student detail', '/students/detail') %>
